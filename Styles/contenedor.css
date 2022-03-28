@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+#contenedor {
+  /* position: absolute; */
+  margin-top: 25px;
+  top: 25px;
+  align-self: center;
+  border-radius: 60px;
+  padding: 25px;
+  font-family: "Shadows Into Light", cursive;
+  width: 40%;
+  height: 850px;
+  box-shadow: 0px 10px 95px black;
+  color: #fff;
+  text-align: center;
+}
+
+.contenedor {
+  display: none;
+}
+
+#pokeId {
+  width: 100%;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.tipos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#tipos h2 {
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.caja {
+  font-weight: 400;
+  margin: 0px 20px;
+  padding: 0px 10px;
+  font-size: 35px;
+  border: 1px solid #fff;
+}
+
+.datos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px 10px;
+}
+
+.altura {
+  margin: 0px 20px;
+}
+
+.peso {
+  margin: 0px 20px;
+}
+
+.altura h2 {
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.altura h3 {
+  font-weight: 400;
+  margin: 0px 20px;
+  padding: 0px 10px;
+  font-size: 35px;
+  border: 1px solid #fff;
+}
+
+.peso h2 {
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.peso h3 {
+  font-weight: 400;
+  margin: 0px 20px;
+  padding: 0px 10px;
+  font-size: 35px;
+  border: 1px solid #fff;
+}
+
+.stats h2 {
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.statContenedor {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stat {
+  width: 70%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.statNombre {
+  text-align: center;
+  margin-left: 60px;
+  width: 70%;
+  font-size: 30px;
+}

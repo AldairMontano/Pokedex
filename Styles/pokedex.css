@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+.pokedex {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 750px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  z-index: 100;
+  /* position: absolute; */
+  top: 75px;
+}
+
+.pokedex h1 {
+  padding: 50px;
+  color: #fff;
+  padding-top: 50px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.pokedex img {
+  width: 412px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form input {
+  padding: 15px;
+  border: none;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.buscar {
+  margin-right: 20px;
+  box-shadow: 7px 7px 25px rgb(247, 6, 6);
+  font-family: "Shadows Into Light", cursive;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.boton {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Shadows Into Light", cursive;
+  cursor: pointer;
+}
+
+.boton:hover {
+  box-shadow: 0px 7px 25px rgb(247, 6, 6);
+}
