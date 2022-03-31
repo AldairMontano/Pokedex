@@ -5,7 +5,7 @@ const getPokemon = () => {
     .then((res) => {
       if (res.status != "200") {
         const pokeSprite = document.getElementById("pokeImg");
-        pokeSprite.src = "./assets/img/error.png";
+        pokeSprite.src = "./assets/img/Error.png";
         window.head.textContent = "Error";
       } else {
         return res.json();
